@@ -43,9 +43,9 @@ https://www.awwwards.com/websites/bootstrap/
 * https://openai.com/?ref=landings.dev ->Aspectos positivos: tiene el movimiento deslizante hacia el lado, que para que mi pag web sea diseada más "editorialmente", funciona mejor, intentando copiar el moviemineto del paso de una página del libro. ->Aspecto negativo: no funciona en toda la página web, solo en una sección en particular. 
 
 ¿Qué existe que puede inspirar la propuesta? → referentes → prepare un moodboard con elementos visuales, distintos de sitios y aplicaciones web, que puedan aportar novedad a su diseño. Para este moodboard puede usar: https://create.vista.com/es/templates/mood-board/, https://www.canva.com/es_mx/crear/mood-boards/, https://www.adobe.com/es/express/create/mood-board
-<img width="747" alt="Captura de pantalla 2024-11-13 a la(s) 11 45 05 p m" src="https://github.com/user-attachments/assets/fb3887b2-a6d7-4611-bb85-54038ab69bcd">
 
 
+<img width="923" alt="Captura de pantalla 2024-11-13 a la(s) 11 46 09 p m" src="https://github.com/user-attachments/assets/10183122-e1f4-4732-9a37-ead37740bfd1">
 
 
 
