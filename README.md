@@ -1,33 +1,31 @@
 # zonaaraucania
 
 ¿Para qué es esta propuesta? → objetivo general → Describa, con una frase que comience con un verbo, el beneficio práctico que aportará el resultado de su trabajo.
-Facilitar el acceso a información sobre recursos, proyectos y plataformas de apoyo en educación financiera, brindando herramientas prácticas para mejorar la gestión económica personal y de emprendimientos.
+Resignificar la “zona roja” de La Araucanía mediante la visibilización de aspectos culturales y naturales del territorio que han sido invisibilizados, contrarrestando los estigmas asociados a los conflictos políticos-sociales.
 
 ¿Para quiénes es esta propuesta? → usuarios extremos y usuarios promedio → Describa a 2 usuarias/os ubicadas/os en los extremos de lo menos probable y 1 en lo más probable. Para cada descripción considere los 4 cuadrantes de la proto-persona y parte de estos templates de persona y escenario.
 Usuarios de la web de educación financiera sobre proyectos y plataformas en Chile
 
 Usuarios Extremos
 
-Usuario Extremo: Teresa, 72 años, dueña de casa en una zona rural
-Perfil: Teresa vive en una comunidad aislada y tiene poca experiencia digital. Su educación formal es básica, y sus ingresos dependen del apoyo de sus hijos y una pequeña pensión.
-Necesidades y Metas: Teresa desea aprender a manejar mejor su presupuesto y entender el sistema financiero básico para hacer rendir sus ingresos. Quiere apoyar mejor a su familia y sentirse más independiente en la toma de decisiones económicas.
-Contexto y Comportamiento: Siente desconfianza hacia plataformas en línea y apenas usa el celular para WhatsApp. No sabe cómo acceder a plataformas de educación financiera y necesita un sitio intuitivo, fácil de navegar y que tenga apoyo en formato de audio o video simple.
-Escenario de Uso: Encuentra la web de educación financiera porque uno de sus hijos la anima. Al usarla, descubre contenidos audiovisuales que le explican conceptos básicos de forma clara, y comienza a entender cómo manejar su presupuesto mensual.
-Usuario Extremo: David, 28 años, programador autónomo y consultor en Santiago
-Perfil: David tiene estudios universitarios en ingeniería y trabaja en el área tecnológica. Es un usuario avanzado de herramientas digitales y se maneja bien en la gestión de su economía personal, utilizando aplicaciones de inversión y de presupuesto.
-Necesidades y Metas: Le interesa profundizar en educación financiera para mejorar su inversión en criptomonedas y entender el impacto económico de políticas financieras en Chile.
-Contexto y Comportamiento: David tiene buen acceso a información de educación financiera y suele buscar recursos avanzados. La web es una herramienta adicional que explora por curiosidad o para recomendaciones específicas, pero busca más profundidad y análisis avanzado.
-Escenario de Uso: David encuentra la web mientras explora contenido nuevo en un foro de finanzas. Utiliza algunas secciones específicas para revisar herramientas, aunque sigue prefiriendo sus aplicaciones avanzadas. Le resulta útil la información de proyectos en Chile y recomendaciones que pueda compartir con familiares o amigos menos avanzados.
+Usuario extremo 1: Tomás, 28 años, mochilero y fotógrafo de naturaleza
+Objetivos y necesidades: Tomás busca destinos inexplorados donde pueda capturar imágenes únicas y descubrir paisajes con baja intervención humana. Necesita información precisa y rutas seguras para planificar su viaje y lograr imágenes auténticas en zonas menos turísticas de La Araucanía.
+
+Actitudes y comportamientos: Es aventurero y autogestiona sus viajes, priorizando lo desconocido y lo auténtico. Suele recurrir a recomendaciones en línea o a las redes sociales para descubrir nuevos lugares, especialmente aquellos que apoyen a las comunidades locales.
+
+Intereses y motivaciones: Le apasiona la fotografía de naturaleza y el turismo consciente; está motivado por la oportunidad de apoyar a las comunidades visitadas a través de su actividad. La página le resulta ideal para acceder a un mapa de sitios menos conocidos y conectarse con la cultura local.
+
+Frustraciones y puntos de dolor: Las barreras de acceso en zonas aisladas y la desinformación sobre cómo moverse en lugares con baja afluencia turística le preocupan. También le frustra el impacto negativo de ciertos desarrollos industriales en las zonas de biodiversidad que visita.
 Usuario Promedio
 
-Usuario Promedio: Carolina, 43 años, microempresaria en Valparaíso
-Perfil: Carolina es dueña de una pequeña tienda de ropa y accesorios en Valparaíso. Tiene conocimientos básicos de herramientas digitales, ya que usa redes sociales y una aplicación de gestión de inventario. Su educación formal es media, pero le interesa aprender más para manejar su negocio de forma más organizada.
+Usuario promedio: Daniela, 35 años, Región Metropolitana
+Objetivos y necesidades: Daniela busca experiencias turísticas que ofrezcan un balance entre contacto con la naturaleza y conexión cultural, en lugares accesibles y seguros. Quiere visitar La Araucanía, aunque las noticias de conflictos la han hecho dudar. La página web le permitirá explorar virtualmente la región y conocer lugares recomendados, facilitando su decisión de viajar.
 
-Necesidades y Metas: Carolina necesita herramientas prácticas para mejorar la contabilidad de su negocio y aprender más sobre temas como créditos, ahorros y gestión de efectivo para asegurar la estabilidad de su tienda. Quiere recibir consejos que pueda implementar sin depender de otros.
+Actitudes y comportamientos: Es una turista moderada que viaja en períodos de vacaciones o fines de semana largos. Prefiere destinos menos masificados y suele buscar en internet lugares únicos y datos confiables antes de decidirse.
 
-Contexto y Comportamiento: Carolina busca información sencilla y directa. Es probable que descubra la web a través de redes sociales o de una recomendación de una amiga. Le interesan secciones de autoaprendizaje y ejemplos prácticos, especialmente enfocados en negocios pequeños.
+Intereses y motivaciones: Le interesan las experiencias auténticas y sostenibles; le motiva la idea de que su visita puede ayudar a las economías locales. Tiene un interés creciente en la cultura mapuche y en aprender más sobre sus tradiciones.
 
-Escenario de Uso: Entra a la web buscando información sobre herramientas financieras para su negocio. Encuentra módulos de aprendizaje con ejercicios descargables y contenido audiovisual que le da claridad sobre la importancia del flujo de caja. Comienza a implementar algunos conceptos y recomendaciones en su negocio y regresa al sitio para más recursos.
+Frustraciones y puntos de dolor: Le preocupa la seguridad al visitar zonas estigmatizadas como conflictivas. También le desanima la falta de información confiable y actualizada sobre la región y teme encontrar servicios turísticos insuficientes o poco accesibles.
 
 ¿Qué existe que es similar a la propuesta? → antecedentes → seleccione y describa los aspectos positivos y negativos de 6 sitios o aplicaciones web. Se recomienda buscarlos en:
 
@@ -37,16 +35,18 @@ https://www.curated.design/
 https://onepagelove.com/
 https://saaslandingpage.com/
 https://www.awwwards.com/websites/bootstrap/
-https://landings.dev/post/mode Aspectos Positivos: Tiene buenos colores contrastantesy principalmente queda claro cual es sel objetivo de la pagina web. Aspectos Negativos: La tipografía es muy llamativa, no aporta legibilidad al landing page. Además, de que tiene mucha información que hace que se vea muy lleno el espacio de la página, poco espacio en “blanco”
 
-https://godly.website/website/dash-digital-studio-756 Aspectos Positivos: Página simple y clara, que tiene vistas para mostrar proyectos, aliados y una galería atractiva Aspectos Negativos: Tiene mucho texto en algunas partes, que no aporta mucho en secciones, ya que la grilla no favorece la lectura.
-
-https://godly.website/website/karl-494 Aspectos Positivos: Es una página muy atractiva de inicio, instaura una narrativa e identidad muy clara de la página. Aspectos Negativos: Aún así no queda muy claro de qué es la página puede ser tan interactiva que confunde el scroll.
-
-https://www.awwwards.com/sites/sonderegger Aspectos Positivos: Una página muy simple, pero clara en la vista de galería de proyectos de diseño. No necesita más colores y queda claro su propósito. Aspectos Negativos: La superposición de los textos entorpece la guía de lectura, tiene elementos que no aportan mucho al diseño. La parte del “Shaping the impossible” no se lee muy bien, no aporta.
-
-https://onepagelove.com/x-shack Aspectos Positivos: Se ve como una página simple que tiene una galería de fotos para el producto, algo que destaco para poder ver claramente el proyecto de mi página para el proyecto final del curso. Aspectos Negativos: Es tan simple que quizás se vuelve muy oscura la página. Por otra parte no necesariamente comunica la identidad del producto siendo especialmente, marihuana.
-
-https://saaslandingpage.com/fable/ Aspectos Positivos: Tiene muchas características de de login de datos que además entrega gráficos y análisis de lo que has leído, me gusta mucho esa característica. Colores atractivos con identidad bastante moderna. Aspectos Negativos: Trata de comunicar tanta información en el landing, que quizás confunde, no queda clara si es una pagina web o una app.
+* https://mode.com/comparisons -> Aspectos positivos: La paleta de colores ofrece un concepto tanto natural como moderno, ideal para la temática de naturaleza y web que me gustaría transmitir. -> Aspectos negativos: no posee la navegación de recorrido que estoy buscando.
+* https://evervault.com/?ref=landings.dev ->Aspectos positivos: Posee un menú fijo en la parte superior que no importa donde esté uno recorriendo la página, se mantiene y facilita la navegación en el sitio web. -> Aspectos negativos: No tiene nada que ver con temas de naturaleza ni cultura ni chile.
+* https://boundinteractive.com/?ref=onepagelove -> Aspectos positivos: el sitio presenta una animación en la navegación que pareciera que no cambias de sección en la página, por lo que uno continua bajando y no hay necesidad de muchos click. Da la sensación de "recorrido". ->Aspectos negativos: no se puede recorrer hacia los lados solo deslizando. El movimiento solo es de arriba hacia abajo.
+* https://www.measuringcarbon.com/?ref=onepagelove#mission ->Aspectos positivos: Introduce un mapa y una animación para el. ->Aspectos negativos: el mapa no puede ser recorrigo y se encuentra en la parte trasera de la página. No es funcional.
+* https://openai.com/?ref=landings.dev ->Aspectos positivos: tiene el movimiento deslizante hacia el lado, que para que mi pag web sea diseada más "editorialmente", funciona mejor, intentando copiar el moviemineto del paso de una página del libro. ->Aspecto negativo: no funciona en toda la página web, solo en una sección en particular. 
 
 ¿Qué existe que puede inspirar la propuesta? → referentes → prepare un moodboard con elementos visuales, distintos de sitios y aplicaciones web, que puedan aportar novedad a su diseño. Para este moodboard puede usar: https://create.vista.com/es/templates/mood-board/, https://www.canva.com/es_mx/crear/mood-boards/, https://www.adobe.com/es/express/create/mood-board
+<img width="747" alt="Captura de pantalla 2024-11-13 a la(s) 11 45 05 p m" src="https://github.com/user-attachments/assets/fb3887b2-a6d7-4611-bb85-54038ab69bcd">
+
+
+
+
+
+
