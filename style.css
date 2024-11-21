@@ -73,3 +73,9 @@ p {
     margin: 0 auto;
     color: #555;
 }
+
+/* Carrusel */
+.carousel {
+    margin: 20px auto;
+    max-width: 800px;
+}
