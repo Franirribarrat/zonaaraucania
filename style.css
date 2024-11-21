@@ -10,6 +10,7 @@ html, body {
     height: 100%;
     overflow-x: hidden;
     font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Animación al hacer clic en el menú */
 }
 
 /* Sección del carrusel */
@@ -44,6 +45,11 @@ section {
     align-items: center;
     padding: 20px;
     text-align: center;
+    border-radius: 0; /* Sin bordes por defecto */
+}
+
+section:not(:first-of-type) {
+    border-radius: 20px 20px 0 0; /* Bordes superiores redondeados excepto en la primera sección */
 }
 
 section#cultura {
@@ -76,6 +82,7 @@ p {
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0.9;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px 20px;
@@ -100,4 +107,5 @@ p {
 .menu-fijo ul li a:hover {
     background-color: #555;
     color: #fff;
+    opacity: 1;
 }
