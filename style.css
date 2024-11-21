@@ -68,3 +68,36 @@ p {
     max-width: 600px;
     color: #555;
 }
+
+/* Menú fijo centrado */
+.menu-fijo {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.menu-fijo ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.menu-fijo ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+.menu-fijo ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
