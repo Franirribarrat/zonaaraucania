@@ -52,16 +52,16 @@ section:not(:first-of-type) {
     border-radius: 20px 20px 0 0; /* Bordes superiores redondeados excepto en la primera sección */
 }
 
-section#cultura {
-    background-color: #f5f5f5;
+section#proyecto {
+    background-color: #86f574;
 }
 
-section#naturaleza {
-    background-color: #eaeaea;
+section#equipo {
+    background-color: #f9fff8;
 }
 
 section#contacto {
-    background-color: #dddddd;
+    background-color: #1800ff;
 }
 
 h2 {
