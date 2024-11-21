@@ -10,46 +10,56 @@
     <meta name="title" content="Zona Araucanía" />
     <meta name="description" content="Plataforma digital interactiva que invita a redescubrir la riqueza cultural y natural de La Araucanía. " />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://metatags.io/" />
-    <meta property="og:title" content="Zona Araucanía" />
-    <meta property="og:description" content="Plataforma digital interactiva que invita a redescubrir la riqueza cultural y natural de La Araucanía. " />
-    <meta property="og:image" content="https://raw.githubusercontent.com/Franirribarrat/zonaaraucania/refs/heads/main/mariposa02.webp" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#cultura">Cultura</a></li>
-                <li><a href="#naturaleza">Naturaleza</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Menú Offcanvas -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Zona Araucanía</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cultura">Cultura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#naturaleza">Naturaleza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Secciones -->
     <section id="inicio">
-        <h1>Bienvenidos a Zona Araucanía</h1>
-        <p>Explora la riqueza cultural y natural de esta hermosa región.</p>
-        
-        <!-- Carrusel -->
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Imagen 1">
+                    <img src="https://via.placeholder.com/1920x1080" class="d-block w-100" alt="Imagen 1">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://via.placeholder.com/800x400/ff7f7f" class="d-block w-100" alt="Imagen 2">
+                    <img src="https://via.placeholder.com/1920x1080/ff7f7f" class="d-block w-100" alt="Imagen 2">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://via.placeholder.com/800x400/7fff7f" class="d-block w-100" alt="Imagen 3">
+                    <img src="https://via.placeholder.com/1920x1080/7fff7f" class="d-block w-100" alt="Imagen 3">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -65,17 +75,15 @@
 
     <section id="cultura">
         <h2>Cultura</h2>
-        <p>La Araucanía es hogar de tradiciones ancestrales y una cultura rica en historia.</p>
+        <p>Contenido sobre la cultura de La Araucanía.</p>
     </section>
-
     <section id="naturaleza">
         <h2>Naturaleza</h2>
-        <p>Descubre los paisajes impresionantes que esta región tiene para ofrecer.</p>
+        <p>Contenido sobre la naturaleza de La Araucanía.</p>
     </section>
-
     <section id="contacto">
         <h2>Contacto</h2>
-        <p>Para más información, no dudes en escribirnos a: contacto@zonaaraucania.cl</p>
+        <p>Información de contacto.</p>
     </section>
 
     <!-- Bootstrap JS -->
