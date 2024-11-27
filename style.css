@@ -5,12 +5,25 @@ v/* General */
     box-sizing: border-box;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    font-family: Arial, sans-serif;
-    scroll-behavior: smooth; /* Animación al hacer clic en el menú */
+@font-face {
+    font-family: 'violeta-regular-webfont';
+    src: url('https://franirribarrat.github.io/zonaaraucania/fonts/violeta-regular-webfont.woff2') format('woff2'),
+         url('https://franirribarrat.github.io/zonaaraucania/fonts/violeta-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aplica la tipografía a toda la página */
+body {
+    font-family: 'violeta-regular-webfont', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplica la tipografía en elementos específicos */
+h1, h2, h3 {
+    font-family: 'violeta-regular-webfont', serif;
+    color: #333;
 }
 
 /* Sección del carrusel */
@@ -161,23 +174,3 @@ p {
 }
 
 /* Configuración de la tipografía */
-@font-face {
-    font-family: 'violeta-regular-webfont';
-    src: url('https://franirribarrat.github.io/zonaaraucania/fonts/violeta-regular-webfont.woff2') format('woff2'),
-         url('https://franirribarrat.github.io/zonaaraucania/fonts/violeta-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Aplica la tipografía a toda la página */
-body {
-    font-family: 'violeta-regular-webfont', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Aplica la tipografía en elementos específicos */
-h1, h2, h3 {
-    font-family: 'violeta-regular-webfont', serif;
-    color: #333;
-}
