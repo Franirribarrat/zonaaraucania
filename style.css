@@ -181,6 +181,47 @@ p {
     object-fit: cover;
 }
 
+/* Sección Proyecto */
+#proyecto {
+    background-color: #86f574;
+    padding: 40px 20px;
+    text-align: left; /* Alinea el contenido a la izquierda */
+}
+
+/* Texto permanente */
+.texto-permanente {
+    font-family: "Solway", serif; /* Tipografía del body */
+    font-size: 1rem; /* Tamaño del texto del body */
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 10px; /* Espacio con el texto grande */
+}
+
+/* Título grande */
+.titulo-grande {
+    font-family: "Bricolage Grotesque", sans-serif; /* Tipografía grande */
+    font-size: 2.5rem; /* Ajusta el tamaño */
+    font-weight: 700; /* Peso del texto */
+    color: #333;
+    margin-bottom: 20px; /* Espacio con el texto central */
+}
+
+/* Texto central */
+.texto-central {
+    display: flex;
+    justify-content: center; /* Centrar el contenido */
+    text-align: center; /* Texto alineado al centro */
+    max-width: 600px;
+    margin: 0 auto 30px auto; /* Centrar con márgenes */
+}
+
+.texto-central p {
+    font-family: "Solway", serif; /* Tipografía del body */
+    font-size: 1rem;
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #555;
+}
+
 /* Contenedor de las tarjetas */
 .cards-container {
     display: flex;
@@ -190,7 +231,7 @@ p {
     margin-top: 20px;
 }
 
-/* Estilo de las cards (opcional si deseas personalizarlas más allá de Bootstrap) */
+/* Estilo de las cards */
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     border-radius: 8px; /* Bordes redondeados */
@@ -201,4 +242,3 @@ p {
     transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
 }
-
