@@ -100,9 +100,8 @@ p {
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(255, 255, 255, 0.9);
-    opacity: 0.9;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 10px; /* Bordes redondeados */
     padding: 10px 20px;
     z-index: 1000;
     display: flex;
@@ -110,6 +109,7 @@ p {
     justify-content: center; /* Alineación horizontal centrada */
 }
 
+/* Lista del menú */
 .menu-fijo ul {
     list-style: none;
     display: flex;
@@ -118,6 +118,7 @@ p {
     padding: 0;
 }
 
+/* Elementos del menú */
 .menu-fijo ul li {
     display: flex; /* Usar flexbox en los elementos */
     align-items: center; /* Centrar verticalmente las palabras */
@@ -125,18 +126,22 @@ p {
     padding: 5px 10px;
 }
 
+/* Enlaces del menú */
 .menu-fijo ul li a {
-    text-decoration: none;
+    text-decoration: none; /* Quitar subrayado */
+    font-family: "Bricolage Grotesque", sans-serif; /* Tipografía personalizada */
     font-size: 16px;
-    color: #333;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    border-radius: 5px;
+    font-weight: 700; /* Estilo negrita */
+    color: #333; /* Color del texto */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efecto hover */
 }
 
+/* Efecto hover */
 .menu-fijo ul li a:hover {
     background-color: #555;
     color: #fff;
-    opacity: 1;
 }
 
 /* Equipo */
