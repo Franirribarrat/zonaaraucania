@@ -1,4 +1,4 @@
-/* General */
+v/* General */
 * {
     margin: 0;
     padding: 0;
@@ -158,4 +158,25 @@ p {
     height: 150px;
     border-radius: 50%; /* Imagen circular */
     object-fit: cover;
+}
+
+@font-face {
+    font-family: 'violeta-regular-webfont';
+    src: url('https://github.com/Franirribarrat/zonaaraucania/blob/main/fonts/violeta-regular-webfont.woff2') format('woff2'), /* Ruta relativa */
+         url('../fonts/mi-tipografia.woff') format('woff');
+    font-weight: normal; /* Opcional: Peso de la fuente */
+    font-style: normal;  /* Opcional: Estilo de la fuente */
+}
+
+/* Aplica la tipografía a toda la página */
+body {
+    font-family: 'violeta-regular-webfont', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplica la tipografía en elementos específicos */
+h1, h2, h3 {
+    font-family: 'violeta-regular-webfont', serif;
+    color: #333;
 }
