@@ -180,3 +180,25 @@ p {
     border-radius: 50%; /* Imagen circular */
     object-fit: cover;
 }
+
+/* Contenedor de las tarjetas */
+.cards-container {
+    display: flex;
+    justify-content: center; /* Centrar las cards horizontalmente */
+    gap: 20px; /* Espacio entre las cards */
+    flex-wrap: wrap; /* Permite que las cards se ajusten en filas si el espacio es reducido */
+    margin-top: 20px;
+}
+
+/* Estilo de las cards (opcional si deseas personalizarlas más allá de Bootstrap) */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
