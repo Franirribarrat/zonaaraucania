@@ -160,12 +160,13 @@ p {
     object-fit: cover;
 }
 
+/* Configuración de la tipografía */
 @font-face {
     font-family: 'violeta-regular-webfont';
-    src: url('https://github.com/Franirribarrat/zonaaraucania/blob/main/fonts/violeta-regular-webfont.woff2') format('woff2'), /* Ruta relativa */
-         url('../fonts/mi-tipografia.woff') format('woff');
-    font-weight: normal; /* Opcional: Peso de la fuente */
-    font-style: normal;  /* Opcional: Estilo de la fuente */
+    src: url('https://franirribarrat.github.io/zonaaraucania/fonts/violeta-regular-webfont.woff2') format('woff2'),
+         url('https://franirribarrat.github.io/zonaaraucania/fonts/violeta-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Aplica la tipografía a toda la página */
