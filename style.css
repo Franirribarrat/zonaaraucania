@@ -14,7 +14,7 @@ html, body {
 }
 
 /* Ocultar el cursor predeterminado en todo el cuerpo */
-body, a {
+body, a, btn-mapa {
     cursor: none; /* Elimina el cursor predeterminado, incluso en enlaces */
 }
 
@@ -32,7 +32,7 @@ body, a {
 
 /* Efecto al pasar sobre enlaces */
 a:hover ~ .cursor {
-    background-color: red; /* Cambia el color del cursor */
+    background-color: #FF4F2C; /* Cambia el color del cursor */
     transform: scale(2); /* Aumenta el tamaño */
 }
 
@@ -50,6 +50,7 @@ html {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-color:#342826;
 }
 
 .inicio-contenedor {
@@ -80,7 +81,7 @@ html {
     position: relative;
     width: 100%;
     height: 100%;
-    color background-color: #342826;
+    background-color:#342826;
 }
 
 .inicio-img {
@@ -292,7 +293,7 @@ p {
     font-family: "Solway", serif;
     font-size: 1rem;
     font-weight: 400;
-    color: #ffffff;
+    color: #342826;
 }
 
 /* Título Grande */
@@ -306,7 +307,7 @@ p {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #342826;
 }
 
 /* Texto Central */
@@ -321,7 +322,7 @@ p {
     font-family: "Solway", serif;
     font-size: 1rem;
     line-height: 1.6;
-    color: #ffffff;
+    color: #342826;
 }
 
 /* Carrusel de Cards */
