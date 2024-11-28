@@ -32,7 +32,7 @@ body, a, button {
 
 /* Efecto al pasar sobre enlaces */
 a:hover ~ .cursor {
-    background-color: #FF4F2C; /* Cambia el color del cursor */
+    background-color: #EFB7FF; /* Cambia el color del cursor */
     transform: scale(2); /* Aumenta el tamaño */
 }
 
@@ -105,6 +105,7 @@ html {
     background-color: rgba(51, 51, 51, 0.5); /* Fondo con poca opacidad */
     color: #fff; /* Color del texto blanco */
     border: none;
+    cursor: none;
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     text-decoration: none; /* Quitar subrayado */
@@ -555,8 +556,8 @@ p {
 /* Botón Volver al Inicio */
 .grilla-contacto .volver-inicio-contenedor {
     grid-column: 3; /* Columna 3 */
-    grid-row: 2; /* Fila 2 */
-    justify-self: center; /* Centrado horizontalmente */
+    grid-row: 1; /* Fila 2 */
+    justify-self: right; /* Centrado horizontalmente */
     align-self: start; /* Alineado al inicio vertical */
 }
 
@@ -567,7 +568,7 @@ p {
     text-decoration: underline; /* Subrayado */
     border: none;
     background: none; /* Sin fondo */
-    cursor: pointer;
+    cursor: none;
     display: flex;
     align-items: center;
     gap: 5px; /* Espaciado entre el icono y el texto */
