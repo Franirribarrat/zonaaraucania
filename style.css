@@ -13,9 +13,9 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Ocultar el cursor predeterminado */
-body {
-    cursor: none;
+/* Ocultar el cursor predeterminado en todo el cuerpo */
+body, a {
+    cursor: none; /* Elimina el cursor predeterminado, incluso en enlaces */
 }
 
 /* Cursor personalizado */
@@ -25,16 +25,17 @@ body {
     height: 15px;
     background-color: white;
     border-radius: 50%;
-    pointer-events: none; /* Permite que los clics pasen a través del cursor */
+    pointer-events: none; /* Permitir clics a través del cursor */
     z-index: 1000; /* Asegura que esté encima de todo */
-    transition: transform 0.2s ease, background-color 0.2s ease; /* Transiciones suaves */
+    transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-/* Cambiar el cursor al pasar sobre enlaces */
+/* Efecto al pasar sobre enlaces */
 a:hover ~ .cursor {
-    background-color: red; /* Color al pasar sobre enlaces */
+    background-color: red; /* Cambia el color del cursor */
     transform: scale(2); /* Aumenta el tamaño */
 }
+
 
 
 html {

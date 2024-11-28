@@ -154,17 +154,17 @@
         cursor.style.top = `${e.clientY}px`;
     });
 
-    // Detectar cuando el cursor pasa sobre un enlace
+    // Aplicar interacciones al pasar sobre enlaces
     const links = document.querySelectorAll('a');
     links.forEach(link => {
         link.addEventListener('mouseover', () => {
-            cursor.style.backgroundColor = 'red';
-            cursor.style.transform = 'scale(2)';
+            cursor.style.backgroundColor = 'red'; // Cambiar color a rojo
+            cursor.style.transform = 'scale(2)'; // Aumentar tamaño
         });
 
         link.addEventListener('mouseout', () => {
-            cursor.style.backgroundColor = 'white';
-            cursor.style.transform = 'scale(1)';
+            cursor.style.backgroundColor = 'white'; // Volver a blanco
+            cursor.style.transform = 'scale(1)'; // Volver a tamaño normal
         });
     });
 </script>
