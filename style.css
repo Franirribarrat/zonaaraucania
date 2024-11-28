@@ -98,9 +98,9 @@ html {
 
 .btn-mapa {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 0.8rem; /* Botón más pequeño */
+    font-size: 0.9rem; /* Botón más pequeño */
     padding: 8px 16px; /* Tamaño reducido del botón */
-    background-color: rgba(51, 51, 51, 0.5); /* Fondo con poca opacidad */
+    background-color: rgba(255, 79, 44, 0.5); /* Fondo con poca opacidad */
     color: #fff; /* Color del texto blanco */
     border: none;
     cursor: none;
@@ -173,7 +173,7 @@ p {
     background-color: rgba(52, 40, 38, 0.5); /* Color de fondo con 50% de opacidad */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Bordes redondeados */
-    padding: 5px 15px; /* Altura menor y ancho reducido */
+    padding: 2px 15px; /* Altura menor y ancho reducido */
     z-index: 1000;
     display: flex;
     align-items: center; /* Alineación vertical centrada */
