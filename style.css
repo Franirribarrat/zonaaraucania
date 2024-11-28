@@ -36,8 +36,6 @@ a:hover ~ .cursor {
     transform: scale(2); /* Aumenta el tamaño */
 }
 
-
-
 html {
     scroll-behavior: smooth; /* Desplazamiento suave */
 }
@@ -172,10 +170,10 @@ p {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #342826; /* Color de fondo cambiado */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Bordes redondeados */
-    padding: 10px 20px;
+    padding: 5px 15px; /* Altura menor y ancho reducido */
     z-index: 1000;
     display: flex;
     align-items: center; /* Alineación vertical centrada */
@@ -186,7 +184,7 @@ p {
 .menu-fijo ul {
     list-style: none;
     display: flex;
-    gap: 20px; /* Espaciado entre los elementos */
+    gap: 15px; /* Espaciado entre los elementos reducido */
     margin: 0;
     padding: 0;
 }
@@ -205,7 +203,7 @@ p {
     font-family: "Bricolage Grotesque", sans-serif; /* Tipografía personalizada */
     font-size: 16px;
     font-weight: 700; /* Estilo negrita */
-    color: #333; /* Color del texto */
+    color: #ffffff; /* Color del texto inicial */
     padding: 5px 10px; /* Espaciado interno */
     border-radius: 5px; /* Bordes redondeados */
     transition: background-color 0.3s ease, color 0.3s ease; /* Efecto hover */
@@ -213,9 +211,10 @@ p {
 
 /* Efecto hover */
 .menu-fijo ul li a:hover {
-    background-color: #555;
-    color: #fff;
+    background-color: #FF4F2C; /* Fondo al pasar el cursor */
+    color: #342826; /* Color del texto al pasar el cursor */
 }
+
 
 /* Equipo */
 .equipo-contenedor {
