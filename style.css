@@ -11,8 +11,6 @@ html, body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background-color: transparent; /* Fondo transparente */
-
 }
 
 html {
@@ -89,7 +87,7 @@ a:hover ~ .cursor {
     transform: scale(1.1);
 }
 
-/* Configuración general de las secciones */
+/* --- Configuración General para Secciones --- */
 section {
     min-height: 100vh;
     display: flex;
@@ -98,21 +96,25 @@ section {
     align-items: center;
     padding: 20px;
     text-align: center;
-    border-radius: 40px 40px 0 0; /* Bordes redondeados */
-    overflow: hidden; /* Asegura que el contenido no sobresalga */
 }
 
-/* Estilo para cada sección */
+section:not(:first-of-type) {
+    border-radius: 40px 40px 0 0;
+}
+
 section#proyecto {
-    background-color: rgba(255, 79, 44, 0.9); /* Fondo semitransparente para mostrar transición */
+    background-color: #FF4F2C;
 }
 
 section#equipo {
-    background-color: rgba(239, 183, 255, 0.9); /* Fondo semitransparente */
+    background-color: #EFB7FF;
 }
 
 section#contacto {
-    background-color: rgba(52, 40, 38, 0.9); /* Fondo semitransparente */
+    background-color: #342826;
+    min-height: 50vh;
+    padding: 40px 20px;
+    color: #ffffff;
 }
 
 /* --- Estilo de Texto Global --- */
