@@ -278,7 +278,7 @@ p {
     height: 470px;
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -286,18 +286,40 @@ p {
 .card img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* Imagen cubre toda la card */
 }
 
 .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+/* Texto sobre la fotografía */
+.card .card-overlay {
+    position: absolute;
+    top: 10px; /* Ajusta la posición vertical */
+    left: 10px; /* Ajusta la posición horizontal */
+    z-index: 2;
+    color: #fff; /* Texto en blanco */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar el texto */
+}
+
+.card-title {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: "Solway", serif;
+    font-size: 1rem;
+    margin-top: 5px;
 }
 
 /* Flechas de navegación */
 .carrusel-controles {
     position: absolute;
-    top: -30px; /* Coloca las flechas arriba del carrusel */
+    top: -60px; /* Más espacio entre las flechas y el carrusel */
     right: 10px; /* Alineación a la derecha */
     display: flex;
     gap: 10px;
