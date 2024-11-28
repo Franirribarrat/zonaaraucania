@@ -259,7 +259,7 @@ p {
     grid-row: 4; /* Fila 4 */
     width: 100%;
     position: relative; /* Para posicionar las flechas */
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /* Carrusel */
@@ -274,7 +274,8 @@ p {
 /* Card */
 .card {
     flex: 0 0 30%; /* Ocupa el 30% del ancho para 3 cards visibles */
-    height: 300px; /* Ajusta la altura según tu diseño */
+    width: 360px;
+    height: 470px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
