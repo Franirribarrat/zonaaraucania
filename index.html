@@ -49,56 +49,81 @@
     <div class="grilla-proyecto">
         <!-- Fila 1, Columna 1: Texto Permanente -->
         <div class="contenedor texto-permanente">
-            <p>Proyecto Zona Araucanía</p>
+            <p>Proyecto ZonAraucanía</p>
         </div>
 
         <!-- Fila 2, Columna 1: Título Grande -->
         <div class="contenedor titulo-grande">
-            <h1>Descubre la magia de la Araucanía</h1>
+            <h1>Narrativas territoriales para la resignificación</h1>
         </div>
 
         <!-- Fila 3, Columna 2: Texto Descriptivo -->
         <div class="contenedor texto-central">
             <p>
-                La Araucanía es una tierra rica en cultura, historia y naturaleza. Aquí podrás explorar una región diversa que
-                combina la tradición mapuche con paisajes asombrosos. Desde los majestuosos volcanes hasta los ríos que cruzan
-                bosques milenarios, cada rincón guarda una historia esperando a ser descubierta. Nuestra misión es conectar a los
-                visitantes con la esencia de este lugar, promoviendo un turismo consciente y respetuoso. En esta región, encontrarás
-                no solo destinos, sino también experiencias únicas que te acercarán a la cultura local y a la naturaleza en su máxima
-                expresión. Explora, aprende y vive la Araucanía como nunca antes.
+                ZonAraucanía es una plataforma digital interactiva que busca resignificar los territorios menos explorados de La Araucanía, destacando su riqueza cultural, natural y ancestral, alejándose del estigma asociado a los conflictos territoriales. A través de un enfoque innovador y educativo, el proyecto combina narrativas locales, fotografía, y herramientas digitales para visibilizar la diversidad y el valor de estos espacios.
+
+                El corazón de la plataforma es un mapa interactivo, donde los visitantes pueden explorar distintos lugares de la región, a menudo estigmatizados, descubriendo no solo sus paisajes únicos, sino también los emprendimientos turísticos locales que operan en armonía con el entorno. Este mapa se complementa con relatos y testimonios de habitantes de la región, quienes comparten su visión del territorio y su conexión con él, creando un puente cultural que conecta a los usuarios con las historias vivas de La Araucanía.
+
+                El proyecto tiene como propósito principal fomentar el turismo consciente y sostenible, atrayendo a visitantes de otras regiones, especialmente de la Región Metropolitana. ZonAraucanía no solo ofrece una ventana para redescubrir estos lugares, sino que también se posiciona como una herramienta clave para apoyar a los emprendedores locales, ayudándolos a fortalecer sus economías y potenciar su visibilidad en un escenario nacional.
             </p>
         </div>
 
-        <!-- Fila 4: Cards -->
-        <div class="contenedor card">
-            <div class="card" style="width: 18rem;">
-                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 1">
-                <div class="card-body">
-                    <h5 class="card-title">Card title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        <!-- Carrusel de Cards -->
+        <div id="cardsCarousel" class="carousel slide contenedor-cards" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/600x400" class="card-img" alt="Card 1">
+                            <div class="card-overlay">
+                                <h5 class="card-title">Card title 1</h5>
+                                <p class="card-text">Descripción breve sobre esta card.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/600x400" class="card-img" alt="Card 2">
+                            <div class="card-overlay">
+                                <h5 class="card-title">Card title 2</h5>
+                                <p class="card-text">Descripción breve sobre esta card.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/600x400" class="card-img" alt="Card 3">
+                            <div class="card-overlay">
+                                <h5 class="card-title">Card title 3</h5>
+                                <p class="card-text">Descripción breve sobre esta card.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#" class="card-link">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/600x400" class="card-img" alt="Card 4">
+                            <div class="card-overlay">
+                                <h5 class="card-title">Card title 4</h5>
+                                <p class="card-text">Descripción breve sobre esta card.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="contenedor card">
-            <div class="card" style="width: 18rem;">
-                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 2">
-                <div class="card-body">
-                    <h5 class="card-title">Card title 2</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="contenedor card">
-            <div class="card" style="width: 18rem;">
-                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 3">
-                <div class="card-body">
-                    <h5 class="card-title">Card title 3</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#cardsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cardsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
 </section>
