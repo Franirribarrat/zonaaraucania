@@ -499,22 +499,12 @@ p {
     max-width: 1200px; /* Ancho máximo */
 }
 
-/* Estilo de los contenedores */
-.grilla-contacto div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-}
-
 /* Texto Permanente */
 .grilla-contacto .texto-permanente {
     grid-column: 1; /* Columna 1 */
     grid-row: 1; /* Fila 1 */
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: left;
+    justify-self: start; /* Alineado al inicio horizontal */
+    align-self: start; /* Alineado al inicio vertical */
 }
 
 .grilla-contacto .texto-permanente p {
@@ -528,77 +518,56 @@ p {
 .grilla-contacto .titulo-grande {
     grid-column: 1; /* Columna 1 */
     grid-row: 2; /* Fila 2 */
-    text-align: left;
 }
 
 .grilla-contacto .titulo-grande h1 {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #ffffff;
+    margin: 0; /* Sin margen */
 }
 
-/* Texto Central */
-.grilla-contacto .texto-central {
-    grid-column: 2; /* Columna 2 */
+/* Texto Punteado */
+.grilla-contacto .texto-punteado {
+    grid-column: 1; /* Columna 1 */
     grid-row: 3; /* Fila 3 */
-    max-width: 600px;
-    text-align: left;
 }
 
-.grilla-contacto .texto-central p {
+.grilla-contacto .texto-punteado ul {
+    list-style-type: none; /* Eliminar estilo de lista */
+    padding: 0; /* Sin padding */
+}
+
+.grilla-contacto .texto-punteado ul li {
     font-family: "Solway", serif;
     font-size: 1rem;
-    line-height: 1.6;
+    font-weight: 400;
     color: #ffffff;
-}
-
-/* Fila de Logotipos */
-.fila-logotipos {
-    grid-column: span 3; /* Ocupa las tres columnas */
-    grid-row: 4; /* Fila 4 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-top: 40px;
-}
-
-/* Logotipos */
-.fila-logotipos img {
-    width: 100px;
-    height: auto;
-    object-fit: contain;
-    filter: grayscale(100%); /* Escala de grises */
-    transition: filter 0.3s ease;
-}
-
-.fila-logotipos img:hover {
-    filter: none; /* Quitar escala de grises al pasar el cursor */
+    margin-bottom: 10px; /* Espaciado entre líneas */
 }
 
 /* Botón Volver al Inicio */
-.volver-inicio {
-    font-family: "Bricolage Grotesque", sans-serif;
+.grilla-contacto .volver-inicio-contenedor {
+    grid-column: 3; /* Columna 3 */
+    grid-row: 2; /* Fila 2 */
+    justify-self: center; /* Centrado horizontalmente */
+    align-self: start; /* Alineado al inicio vertical */
+}
+
+.grilla-contacto .volver-inicio {
+    font-family: "Solway", serif;
     font-size: 1rem;
-    color: #fff;
-    background-color: rgba(51, 51, 51, 0.5);
-    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: underline; /* Subrayado */
     border: none;
-    border-radius: 8px;
-    text-decoration: none;
+    background: none; /* Sin fondo */
+    cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    cursor: pointer;
+    gap: 5px; /* Espaciado entre el icono y el texto */
 }
 
-.volver-inicio:hover {
-    background-color: rgba(51, 51, 51, 0.8);
-    transform: scale(1.1);
-}
-
-.volver-inicio-icono {
-    margin-right: 10px;
+.grilla-contacto .volver-inicio:hover {
+    color: #FF4F2C; /* Color al pasar el mouse */
 }
