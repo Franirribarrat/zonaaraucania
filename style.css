@@ -294,27 +294,23 @@ p {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
 }
 
-/* Texto sobre la fotografía */
-.card .card-overlay {
+/* Texto en la parte inferior derecha */
+.card-overlay {
     position: absolute;
-    top: 10px; /* Ajusta la posición vertical */
-    left: 10px; /* Ajusta la posición horizontal */
+    bottom: 10px; /* Alineado al borde inferior */
+    left: 10px; /* Alineado al borde izquierdo */
     z-index: 2;
     color: #fff; /* Texto en blanco */
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para destacar el texto */
 }
 
-.card-title {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 .card-text {
     font-family: "Solway", serif;
     font-size: 1rem;
-    margin-top: 5px;
+    margin: 0;
+    padding: 0;
 }
+
 
 /* Flechas de navegación */
 .carrusel-controles {
