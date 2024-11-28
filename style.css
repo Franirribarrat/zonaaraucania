@@ -38,6 +38,13 @@ a:hover ~ .cursor {
 
 html {
     scroll-behavior: smooth; /* Desplazamiento suave */
+    font-size: 100%; /* Base relativa (16px por defecto) */
+}
+
+body {
+    font-size: 1rem; /* Escalable en relación a html */
+    line-height: 1.6;
+
 }
 
 /* Sección Inicio */
@@ -576,3 +583,94 @@ p {
 .grilla-contacto .volver-inicio:hover {
     color: #FF4F2C; /* Color al pasar el mouse */
 }
+
+/* Estilo para pantallas más pequeñas (celulares) */
+@media (max-width: 768px) {
+    .menu-fijo {
+        flex-direction: column; /* Cambiar menú a una columna */
+        padding: 10px; /* Reducir padding */
+    }
+
+    .menu-fijo ul {
+        gap: 10px; /* Reducir espacio entre los elementos */
+    }
+
+    .grilla-proyecto, .grilla-equipo, .grilla-contacto {
+        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-rows: auto; /* Ajusta las filas automáticamente */
+        gap: 15px;
+    }
+
+    .titulo-grande h1 {
+        font-size: 2.5rem; /* Reducir tamaño del título */
+    }
+
+    .texto-central p {
+        font-size: 0.9rem; /* Reducir texto */
+        text-align: justify; /* Mejor ajuste en pantallas pequeñas */
+    }
+
+    .inicio-overlay {
+        top: 90%; /* Ajustar posición del botón */
+    }
+}
+
+/* Estilo para pantallas medianas (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .grilla-proyecto, .grilla-equipo, .grilla-contacto {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    }
+
+    .titulo-grande h1 {
+        font-size: 3rem;
+    }
+
+    .texto-central p {
+        font-size: 1rem;
+    }
+}
+
+img, .inicio-img {
+    max-width: 100%; /* Evita que las imágenes excedan su contenedor */
+    height: auto; /* Mantiene la proporción */
+}
+
+.carrusel-container {
+    overflow-x: auto; /* Hacer que el carrusel sea desplazable en pantallas pequeñas */
+    -webkit-overflow-scrolling: touch; /* Mejora la experiencia en móviles */
+}
+
+.carrusel {
+    flex-wrap: nowrap; /* Evitar que las tarjetas se desordenen */
+}
+
+
+meta[name="viewport"] {
+    content: "width=device-width, initial-scale=1, viewport-fit=cover";
+}
+
+@media (max-width: 768px) {
+    .menu-fijo {
+        position: static; /* Haz que el menú sea fijo en la parte superior */
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%; /* Ocupa todo el ancho */
+    }
+}
+
+section {
+    width: 100%;
+    max-width: 1200px; /* Evita que el contenido sea demasiado ancho */
+    margin: 0 auto; /* Centrar el contenido */
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem; /* Reduce el tamaño del texto */
+    }
+
+    h1, h2 {
+        font-size: 1.5rem; /* Ajusta títulos */
+    }
+}
+
