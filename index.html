@@ -143,6 +143,34 @@
 </html>
 
 <script>
+    // Crear el cursor personalizado
+    const cursor = document.createElement('div');
+    cursor.classList.add('cursor');
+    document.body.appendChild(cursor);
+
+    // Actualizar la posición del cursor
+    document.addEventListener('mousemove', (e) => {
+        cursor.style.left = `${e.clientX}px`;
+        cursor.style.top = `${e.clientY}px`;
+    });
+
+    // Detectar cuando el cursor pasa sobre un enlace
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+        link.addEventListener('mouseover', () => {
+            cursor.style.backgroundColor = 'red';
+            cursor.style.transform = 'scale(2)';
+        });
+
+        link.addEventListener('mouseout', () => {
+            cursor.style.backgroundColor = 'white';
+            cursor.style.transform = 'scale(1)';
+        });
+    });
+</script>
+
+
+<script>
     const carrusel = document.getElementById('cardsCarrusel');
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
@@ -155,4 +183,6 @@
         carrusel.scrollBy({ left: -carrusel.offsetWidth, behavior: 'smooth' });
     });
 </script>
+
+
 

@@ -13,6 +13,30 @@ html, body {
     overflow-x: hidden;
 }
 
+/* Ocultar el cursor predeterminado */
+body {
+    cursor: none;
+}
+
+/* Cursor personalizado */
+.cursor {
+    position: fixed;
+    width: 15px; /* Tamaño inicial */
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none; /* Permite que los clics pasen a través del cursor */
+    z-index: 1000; /* Asegura que esté encima de todo */
+    transition: transform 0.2s ease, background-color 0.2s ease; /* Transiciones suaves */
+}
+
+/* Cambiar el cursor al pasar sobre enlaces */
+a:hover ~ .cursor {
+    background-color: red; /* Color al pasar sobre enlaces */
+    transform: scale(2); /* Aumenta el tamaño */
+}
+
+
 html {
     scroll-behavior: smooth; /* Desplazamiento suave */
 }
@@ -228,7 +252,7 @@ p {
 
 /* Sección Proyecto */
 #proyecto {
-    background-color: #ff3806;
+    background-color: #EFB7FF;
     padding: 40px 20px;
     display: flex;
     justify-content: center;
@@ -266,7 +290,7 @@ p {
     font-family: "Solway", serif;
     font-size: 1rem;
     font-weight: 400;
-    color: #555;
+    color: #ffffff;
 }
 
 /* Título Grande */
