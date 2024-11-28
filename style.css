@@ -294,6 +294,8 @@ p {
     font-size: 1rem;
     font-weight: 400;
     color: #ffffff;
+
+
 }
 
 /* Título Grande */
@@ -503,8 +505,10 @@ p {
 .grilla-contacto .texto-permanente {
     grid-column: 1; /* Columna 1 */
     grid-row: 1; /* Fila 1 */
-    justify-self: start; /* Alineado al inicio horizontal */
-    align-self: start; /* Alineado al inicio vertical */
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+
 }
 
 .grilla-contacto .texto-permanente p {
@@ -545,6 +549,7 @@ p {
     font-weight: 400;
     color: #ffffff;
     margin-bottom: 10px; /* Espaciado entre líneas */
+    text-align: left;
 }
 
 /* Botón Volver al Inicio */
