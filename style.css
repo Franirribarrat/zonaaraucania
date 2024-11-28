@@ -428,24 +428,57 @@ p {
     background-color: #EFB7FF;
     padding: 40px 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.equipo-contenedor {
+/* Grilla de Equipo */
+.grilla-equipo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    grid-template-rows: repeat(4, auto); /* Cuatro filas automáticas */
+    gap: 20px; /* Espaciado entre celdas */
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo */
+}
+
+/* Texto Permanente */
+.grilla-equipo .texto-permanente {
+    grid-column: 1; /* Columna 1 */
+    grid-row: 1; /* Fila 1 */
+    justify-self: start; /* Alineado al inicio */
+    align-self: start; /* Alineado al inicio vertical */
+    font-family: "Solway", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* Texto y contenido adicional */
+.grilla-equipo .contenido {
+    grid-column: 1 / 4; /* Ocupa las tres columnas */
+    grid-row: 2 / 5; /* De la fila 2 a la fila 4 */
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
+    text-align: center;
 }
 
-.equipo-contenedor .texto-permanente {
-    margin-bottom: 20px;
+.grilla-equipo .contenido h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
 }
 
-.equipo-contenedor .texto {
+.grilla-equipo .contenido p {
+    font-family: "Solway", serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
     max-width: 800px;
 }
+
 
 /* Sección Contacto */
 #contacto {
