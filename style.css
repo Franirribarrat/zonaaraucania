@@ -186,76 +186,97 @@ p {
     background-color: #86f574;
     padding: 40px 20px;
     display: flex;
-    justify-content: center; /* Centrar el contenido */
-    align-items: flex-start; /* Alineación superior */
-    flex-wrap: wrap; /* Ajuste responsivo */
-    min-height: 120vh; /* Altura ampliada */
+    justify-content: center;
+    align-items: flex-start;
 }
 
-/* Contenedor general */
-.contenedor-proyecto {
-    display: flex;
-    justify-content: space-between; /* Espacio entre columnas */
+/* Grilla General */
+.grilla-proyecto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    grid-template-rows: repeat(4, auto); /* Cuatro filas automáticas */
+    gap: 20px; /* Espaciado entre celdas */
     width: 100%;
-    max-width: 1200px; /* Ancho máximo de la sección */
-    gap: 20px; /* Separación entre columnas */
+    max-width: 1200px; /* Ancho máximo */
 }
 
-/* Columnas */
-.columna {
-    flex: 1; /* Ocupa el mismo espacio por defecto */
+/* Estilo de los contenedores */
+.contenedor {
     display: flex;
-    flex-direction: column; /* Alineación vertical */
-    justify-content: flex-start; /* Alineación superior */
-    gap: 20px; /* Espaciado entre elementos */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-/* Estilo para la columna de texto central */
-.columna.centro {
+/* Texto Permanente */
+.texto-permanente {
+    grid-column: 1; /* Columna 1 */
+    grid-row: 1; /* Fila 1 */
+    justify-content: flex-start;
+    align-items: flex-start;
     text-align: left;
 }
 
-/* Texto permanente */
-.texto-permanente {
-    font-family: "Solway", serif; /* Tipografía del body */
-    font-size: 1rem; /* Tamaño del texto del body */
+.texto-permanente p {
+    font-family: "Solway", serif;
+    font-size: 1rem;
     font-weight: 400;
     color: #555;
 }
 
-/* Título grande */
+/* Título Grande */
 .titulo-grande {
-    font-family: "Bricolage Grotesque", sans-serif; /* Tipografía grande */
-    font-size: 2.5rem; /* Ajusta el tamaño */
-    font-weight: 700; /* Peso del texto */
-    color: #333;
-    margin-bottom: 20px;
+    grid-column: 1; /* Columna 1 */
+    grid-row: 2; /* Fila 2 */
+    text-align: left;
 }
 
-/* Texto central */
+.titulo-grande h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Texto Central */
 .texto-central {
-    font-family: "Solway", serif; /* Tipografía del body */
+    grid-column: 2; /* Columna 2 */
+    grid-row: 3; /* Fila 3 */
+    max-width: 600px;
+    text-align: center;
+}
+
+.texto-central p {
+    font-family: "Solway", serif;
     font-size: 1rem;
-    line-height: 1.6; /* Espaciado entre líneas */
+    line-height: 1.6;
     color: #555;
 }
 
-/* Contenedor de las tarjetas */
-.cards-container {
-    display: flex;
-    justify-content: center; /* Centrar las cards horizontalmente */
-    gap: 20px; /* Espacio entre las cards */
-    flex-wrap: wrap; /* Permite que las cards se ajusten en filas si el espacio es reducido */
+/* Cards */
+.card {
+    grid-row: 4; /* Fila 4 */
 }
 
-/* Estilo de las cards */
+.card:nth-child(4) {
+    grid-column: 1; /* Columna 1 */
+}
+
+.card:nth-child(5) {
+    grid-column: 2; /* Columna 2 */
+}
+
+.card:nth-child(6) {
+    grid-column: 3; /* Columna 3 */
+}
+
 .card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    border-radius: 8px; /* Bordes redondeados */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
