@@ -129,7 +129,7 @@ section {
 }
 
 section:not(:first-of-type) {
-    border-radius: 40px 40px 0 0;
+    border-radius: 0px 0px 0 0;
 }
 
 section#proyecto {
@@ -170,7 +170,7 @@ p {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #342826; /* Color de fondo cambiado */
+    background-color: rgba(52, 40, 38, 0.5); /* Color de fondo con 50% de opacidad */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Bordes redondeados */
     padding: 5px 15px; /* Altura menor y ancho reducido */
@@ -202,7 +202,7 @@ p {
     text-decoration: none; /* Quitar subrayado */
     font-family: "Bricolage Grotesque", sans-serif; /* Tipografía personalizada */
     font-size: 16px;
-    font-weight: 700; /* Estilo negrita */
+    font-weight: 400; /* Estilo negrita */
     color: #ffffff; /* Color del texto inicial */
     padding: 5px 10px; /* Espaciado interno */
     border-radius: 5px; /* Bordes redondeados */
