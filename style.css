@@ -482,37 +482,114 @@ p {
 
 /* Sección Contacto */
 #contacto {
-    background-color: #342826;
-    padding: 40px 20px;
-    color: #ffffff;
+    background-color: #342826; /* Color de fondo */
+    padding: 40px 20px; /* Espaciado interno */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-/* Grilla de Contacto */
+/* Grilla General para Contacto */
 .grilla-contacto {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    grid-template-rows: repeat(4, auto); /* Cuatro filas automáticas */
+    gap: 20px; /* Espaciado entre celdas */
     width: 100%;
-    max-width: 1200px;
+    max-width: 1200px; /* Ancho máximo */
+}
+
+/* Estilo de los contenedores */
+.grilla-contacto div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+/* Texto Permanente */
+.grilla-contacto .texto-permanente {
+    grid-column: 1; /* Columna 1 */
+    grid-row: 1; /* Fila 1 */
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.grilla-contacto .texto-permanente p {
+    font-family: "Solway", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* Título Grande */
+.grilla-contacto .titulo-grande {
+    grid-column: 1; /* Columna 1 */
+    grid-row: 2; /* Fila 2 */
+    text-align: left;
+}
+
+.grilla-contacto .titulo-grande h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* Texto Central */
+.grilla-contacto .texto-central {
+    grid-column: 2; /* Columna 2 */
+    grid-row: 3; /* Fila 3 */
+    max-width: 600px;
+    text-align: left;
+}
+
+.grilla-contacto .texto-central p {
+    font-family: "Solway", serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Fila de Logotipos */
+.fila-logotipos {
+    grid-column: span 3; /* Ocupa las tres columnas */
+    grid-row: 4; /* Fila 4 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+/* Logotipos */
+.fila-logotipos img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(100%); /* Escala de grises */
+    transition: filter 0.3s ease;
+}
+
+.fila-logotipos img:hover {
+    filter: none; /* Quitar escala de grises al pasar el cursor */
 }
 
 /* Botón Volver al Inicio */
 .volver-inicio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 0.8rem;
-    padding: 10px 20px;
-    background-color: rgba(51, 51, 51, 0.5);
+    font-size: 1rem;
     color: #fff;
+    background-color: rgba(51, 51, 51, 0.5);
+    padding: 10px 20px;
     border: none;
     border-radius: 8px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
     cursor: pointer;
 }
@@ -524,25 +601,4 @@ p {
 
 .volver-inicio-icono {
     margin-right: 10px;
-}
-
-/* Fila de logotipos */
-.fila-logotipos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-top: 40px;
-}
-
-.fila-logotipos img {
-    width: 100px;
-    height: auto;
-    object-fit: contain;
-    filter: grayscale(100%); /* Opcional: Efecto en escala de grises */
-    transition: filter 0.3s ease;
-}
-
-.fila-logotipos img:hover {
-    filter: none; /* Color original al pasar el cursor */
 }
