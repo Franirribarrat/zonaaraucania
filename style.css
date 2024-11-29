@@ -414,16 +414,18 @@ p {
 .grilla-objetivos .texto-permanente {
     grid-column: 1; /* Columna 1 */
     grid-row: 1; /* Fila 1 */
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: left;
+    justify-content: flex-start; /* Alinear al inicio horizontalmente */
+    align-items: flex-start; /* Alinear al inicio verticalmente */
+    text-align: left; /* Texto alineado a la izquierda */
     font-family: "Solway", serif;
     font-size: 1rem;
     font-weight: 400;
-    color: #342826; /* Color modificado */
-    margin-top: -10px; /* Posicionar más arriba */
+    color: #342826; /* Color corregido */
+    margin-top: -20px; /* Reducir espacio superior */
     margin-bottom: 5px; /* Reducir espacio inferior */
+    padding: 0; /* Sin relleno interno */
 }
+
 
 /* Título Grande */
 .grilla-objetivos .titulo-grande {
