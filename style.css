@@ -384,9 +384,10 @@ p {
     font-family: "Solway", serif;
     font-size: 1rem;
     font-weight: 400;
-    color: #ffffff;
+    color: #342826; /* Color modificado */
     margin-bottom: 10px;
     text-align: left;
+    margin-top: 0; /* Ajuste para que el texto esté más arriba */
 }
 
 /* Sección Objetivos */
@@ -418,7 +419,8 @@ p {
     font-family: "Solway", serif;
     font-size: 1rem;
     font-weight: 400;
-    color: #FF3772;
+    color: #342826; /* Color modificado */
+    margin-top: -10px; /* Posicionar más arriba */
 }
 
 /* Título Grande */
@@ -432,7 +434,7 @@ p {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    color: #FF3772;
+    color: #342826; /* Color modificado */
 }
 
 /* Imágenes Íconos */
@@ -451,23 +453,27 @@ p {
 /* Títulos y Párrafos */
 .grilla-objetivos .contenido {
     grid-row: 4; /* Fila 4 */
-    text-align: left; /* Centrado del texto */
+    text-align: center; /* Centrado del texto */
 }
 
 .grilla-objetivos .contenido h3 {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #FF3772;
+    color: #342826; /* Color modificado */
 }
 
 .grilla-objetivos .contenido p {
     font-family: "Solway", serif;
     font-size: 1rem;
     line-height: 1.6;
-    color: #FF3772;
+    color: #342826; /* Color modificado */
     margin-top: 10px;
+    max-width: 250px; /* Párrafos más angostos */
+    margin-left: auto;
+    margin-right: auto; /* Centrar los párrafos */
 }
+
 
 
 
