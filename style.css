@@ -390,10 +390,11 @@ p {
     margin-top: 0; /* Ajuste para que el texto esté más arriba */
 }
 
+
 /* Sección Objetivos */
 #objetivos {
     background-color: #EFB7FF; /* Mantiene el color */
-    padding: 40px 20px;
+    padding: 20px 15px; /* Reducir el espacio interno */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -404,7 +405,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
     grid-template-rows: repeat(4, auto); /* Cuatro filas automáticas */
-    gap: 20px; /* Espaciado entre celdas */
+    gap: 10px; /* Reducir el espacio entre celdas */
     width: 100%;
     max-width: 1200px; /* Ancho máximo */
 }
@@ -421,6 +422,7 @@ p {
     font-weight: 400;
     color: #342826; /* Color modificado */
     margin-top: -10px; /* Posicionar más arriba */
+    margin-bottom: 5px; /* Reducir espacio inferior */
 }
 
 /* Título Grande */
@@ -432,9 +434,10 @@ p {
 
 .grilla-objetivos .titulo-grande h1 {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem; /* Reducir tamaño de fuente */
     font-weight: 700;
     color: #342826; /* Color modificado */
+    margin-bottom: 10px; /* Reducir espacio inferior */
 }
 
 /* Imágenes Íconos */
@@ -445,7 +448,7 @@ p {
 }
 
 .grilla-objetivos .icono img {
-    width: 100px; /* Tamaño del ícono */
+    width: 80px; /* Reducir tamaño del ícono */
     height: auto;
     object-fit: contain;
 }
@@ -454,25 +457,27 @@ p {
 .grilla-objetivos .contenido {
     grid-row: 4; /* Fila 4 */
     text-align: center; /* Centrado del texto */
+    margin-top: -5px; /* Reducir espacio superior */
 }
 
 .grilla-objetivos .contenido h3 {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Reducir tamaño de fuente */
     font-weight: 700;
     color: #342826; /* Color modificado */
 }
 
 .grilla-objetivos .contenido p {
     font-family: "Solway", serif;
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 0.9rem; /* Reducir tamaño de fuente */
+    line-height: 1.4; /* Reducir altura de línea */
     color: #342826; /* Color modificado */
-    margin-top: 10px;
-    max-width: 250px; /* Párrafos más angostos */
+    margin-top: 5px; /* Reducir espacio superior */
+    max-width: 200px; /* Párrafos más angostos */
     margin-left: auto;
     margin-right: auto; /* Centrar los párrafos */
 }
+
 
 
 
