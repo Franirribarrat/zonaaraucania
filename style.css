@@ -412,12 +412,13 @@ p {
 .grilla-objetivos .texto-permanente {
     grid-column: 1; /* Columna 1 */
     grid-row: 1; /* Fila 1 */
-    justify-self: start; /* Alineado al inicio */
-    align-self: start; /* Alineado al inicio vertical */
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
     font-family: "Solway", serif;
     font-size: 1rem;
     font-weight: 400;
-    color: #ffffff;
+    color: #FF3772;
 }
 
 /* Título Grande */
@@ -431,7 +432,7 @@ p {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    color: #333;
+    color: #FF3772;
 }
 
 /* Imágenes Íconos */
@@ -450,21 +451,21 @@ p {
 /* Títulos y Párrafos */
 .grilla-objetivos .contenido {
     grid-row: 4; /* Fila 4 */
-    text-align: center; /* Centrado del texto */
+    text-align: left; /* Centrado del texto */
 }
 
 .grilla-objetivos .contenido h3 {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #333;
+    color: #FF3772;
 }
 
 .grilla-objetivos .contenido p {
     font-family: "Solway", serif;
     font-size: 1rem;
     line-height: 1.6;
-    color: #555;
+    color: #FF3772;
     margin-top: 10px;
 }
 
