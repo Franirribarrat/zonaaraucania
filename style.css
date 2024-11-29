@@ -137,7 +137,7 @@ section#proyecto {
     background-color: #FF4F2C;
 }
 
-section#equipo {
+section#objetivos {
     background-color: #EFB7FF;
 }
 
@@ -216,43 +216,6 @@ p {
     color: #342826; /* Color del texto al pasar el cursor */
 }
 
-
-/* Equipo */
-.equipo-contenedor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.equipo-contenedor .texto {
-    flex: 1;
-    text-align: left;
-}
-
-.equipo-contenedor .texto h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.equipo-contenedor .texto p {
-    color: #666;
-    font-size: 0.9em;
-}
-
-.equipo-contenedor .imagen {
-    flex: 0;
-}
-
-.equipo-contenedor .imagen img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Imagen circular */
-    object-fit: cover;
-}
 
 /* Sección Proyecto */
 #proyecto {
@@ -426,17 +389,17 @@ p {
     text-align: left;
 }
 
-/* Sección Equipo */
-#equipo {
-    background-color: #EFB7FF;
+/* Sección Objetivos */
+#objetivos {
+    background-color: #EFB7FF; /* Mantiene el color */
     padding: 40px 20px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
-/* Grilla de Equipo */
-.grilla-equipo {
+/* Grilla de Objetivos */
+.grilla-objetivos {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
     grid-template-rows: repeat(4, auto); /* Cuatro filas automáticas */
@@ -446,7 +409,7 @@ p {
 }
 
 /* Texto Permanente */
-.grilla-equipo .texto-permanente {
+.grilla-objetivos .texto-permanente {
     grid-column: 1; /* Columna 1 */
     grid-row: 1; /* Fila 1 */
     justify-self: start; /* Alineado al inicio */
@@ -457,30 +420,54 @@ p {
     color: #ffffff;
 }
 
-/* Texto y contenido adicional */
-.grilla-equipo .contenido {
-    grid-column: 1 / 4; /* Ocupa las tres columnas */
-    grid-row: 2 / 5; /* De la fila 2 a la fila 4 */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+/* Título Grande */
+.grilla-objetivos .titulo-grande {
+    grid-column: 1; /* Columna 1 */
+    grid-row: 2; /* Fila 2 */
+    text-align: left;
 }
 
-.grilla-equipo .contenido h3 {
+.grilla-objetivos .titulo-grande h1 {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #333;
 }
 
-.grilla-equipo .contenido p {
+/* Imágenes Íconos */
+.grilla-objetivos .icono {
+    grid-row: 3; /* Fila 3 */
+    justify-self: center; /* Centrar horizontalmente */
+    align-self: center; /* Centrar verticalmente */
+}
+
+.grilla-objetivos .icono img {
+    width: 100px; /* Tamaño del ícono */
+    height: auto;
+    object-fit: contain;
+}
+
+/* Títulos y Párrafos */
+.grilla-objetivos .contenido {
+    grid-row: 4; /* Fila 4 */
+    text-align: center; /* Centrado del texto */
+}
+
+.grilla-objetivos .contenido h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.grilla-objetivos .contenido p {
     font-family: "Solway", serif;
     font-size: 1rem;
     line-height: 1.6;
     color: #555;
-    max-width: 800px;
+    margin-top: 10px;
 }
+
 
 
 /* Sección Contacto */
