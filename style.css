@@ -400,8 +400,8 @@ p {
     align-items: flex-start; /* Alinear los elementos al inicio */
 }
 
-/* Título Grande */
-.objetivos-titulo-grande {
+/* Título Grande */ 
+.objetivos-titulo-grande h1 {
     margin-top: 10px; /* Reducir espacio superior */
     margin-bottom: 20px; /* Espaciado inferior */
     font-family: "Bricolage Grotesque", sans-serif;
