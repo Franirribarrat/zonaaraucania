@@ -396,53 +396,33 @@ p {
     background-color: #EFB7FF; /* Mantiene el color */
     padding: 20px 15px; /* Reducir el espacio interno */
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-/* Grilla de Objetivos */
-/* Sección Objetivos */
-#objetivos {
-    background-color: #EFB7FF; /* Mantiene el color */
-    padding: 20px 15px; /* Reducir el espacio interno */
-    display: flex;
     flex-direction: column; /* Disposición en columna */
     align-items: flex-start; /* Alinear los elementos al inicio */
 }
 
-/* Texto Permanente */
-.objetivos-texto-permanente {
-    margin-top: 0; /* Sin margen superior */
-    margin-bottom: 10px; /* Espaciado inferior */
-    font-family: "Solway", serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #342826; /* Color modificado */
-    padding: 0; /* Sin relleno interno */
-}
-
 /* Título Grande */
 .objetivos-titulo-grande {
-    margin-top: 10px; /* Separación del texto permanente */
-    margin-bottom: 15px; /* Espaciado inferior */
+    margin-top: 10px; /* Reducir espacio superior */
+    margin-bottom: 20px; /* Espaciado inferior */
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 3rem; /* Reducir tamaño de fuente */
-    font-weight: 700;
+    font-size: 4rem; /* Aumentar tamaño de fuente */
+    font-weight: 700; /* Peso más grueso */
     color: #342826; /* Color modificado */
+    text-align: left; /* Alineación a la izquierda */
 }
 
 /* Contenedor de Íconos */
 .objetivos-iconos {
     display: flex;
-    justify-content: center; /* Centrar los íconos */
-    align-items: center; /* Alinear verticalmente */
+    justify-content: center; /* Centrar los íconos horizontalmente */
+    align-items: center; /* Centrar verticalmente */
     gap: 20px; /* Espacio entre íconos */
     margin-top: 15px; /* Separación del título */
     margin-bottom: 20px; /* Espaciado inferior */
 }
 
 .objetivos-iconos img {
-    width: 80px; /* Reducir tamaño del ícono */
+    width: 80px; /* Tamaño del ícono */
     height: auto;
     object-fit: contain;
 }
@@ -450,29 +430,32 @@ p {
 /* Contenedor de Títulos y Párrafos */
 .objetivos-contenido {
     display: flex;
-    justify-content: center; /* Centrar el contenido */
-    gap: 20px; /* Espacio entre columnas */
-    text-align: center; /* Centrar texto */
-    margin-top: -5px; /* Reducir espacio superior */
+    justify-content: space-evenly; /* Distribuir uniformemente a lo ancho */
+    align-items: flex-start; /* Alineación vertical al inicio */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-top: 20px; /* Separación de los íconos */
+    text-align: center; /* Centrar texto dentro de cada columna */
 }
 
 .objetivos-contenido .columna {
-    max-width: 200px; /* Limitar ancho */
+    max-width: 300px; /* Ancho limitado */
+    flex: 1; /* Permitir flexibilidad en el tamaño */
 }
 
 .objetivos-contenido h3 {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1.2rem; /* Reducir tamaño de fuente */
+    font-size: 1.5rem; /* Ajustar tamaño de fuente */
     font-weight: 700;
     color: #342826; /* Color modificado */
+    margin-bottom: 10px; /* Espacio debajo del título */
 }
 
 .objetivos-contenido p {
     font-family: "Solway", serif;
-    font-size: 0.9rem; /* Reducir tamaño de fuente */
-    line-height: 1.4; /* Reducir altura de línea */
+    font-size: 1rem; /* Ajustar tamaño de fuente */
+    line-height: 1.5; /* Ajustar altura de línea */
     color: #342826; /* Color modificado */
-    margin-top: 5px; /* Reducir espacio superior */
+    margin: 0 auto; /* Centrar párrafo */
 }
 
 
