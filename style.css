@@ -401,83 +401,78 @@ p {
 }
 
 /* Grilla de Objetivos */
-.grilla-objetivos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
-    grid-template-rows: repeat(4, auto); /* Cuatro filas automáticas */
-    gap: 10px; /* Reducir el espacio entre celdas */
-    width: 100%;
-    max-width: 1200px; /* Ancho máximo */
+/* Sección Objetivos */
+#objetivos {
+    background-color: #EFB7FF; /* Mantiene el color */
+    padding: 20px 15px; /* Reducir el espacio interno */
+    display: flex;
+    flex-direction: column; /* Disposición en columna */
+    align-items: flex-start; /* Alinear los elementos al inicio */
 }
 
 /* Texto Permanente */
-.grilla-objetivos .texto-permanente {
-    grid-column: 1; /* Columna 1 */
-    grid-row: 1; /* Fila 1 */
-    justify-content: flex-start; /* Alinear al inicio horizontalmente */
-    align-items: flex-start; /* Alinear al inicio verticalmente */
-    text-align: left; /* Texto alineado a la izquierda */
+.objetivos-texto-permanente {
+    margin-top: 0; /* Sin margen superior */
+    margin-bottom: 10px; /* Espaciado inferior */
     font-family: "Solway", serif;
     font-size: 1rem;
     font-weight: 400;
-    color: #342826; /* Color corregido */
-    margin-top: -20px; /* Reducir espacio superior */
-    margin-bottom: 5px; /* Reducir espacio inferior */
+    color: #342826; /* Color modificado */
     padding: 0; /* Sin relleno interno */
 }
 
-
 /* Título Grande */
-.grilla-objetivos .titulo-grande {
-    grid-column: 1; /* Columna 1 */
-    grid-row: 2; /* Fila 2 */
-    text-align: left;
-}
-
-.grilla-objetivos .titulo-grande h1 {
+.objetivos-titulo-grande {
+    margin-top: 10px; /* Separación del texto permanente */
+    margin-bottom: 15px; /* Espaciado inferior */
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 3rem; /* Reducir tamaño de fuente */
     font-weight: 700;
     color: #342826; /* Color modificado */
-    margin-bottom: 10px; /* Reducir espacio inferior */
 }
 
-/* Imágenes Íconos */
-.grilla-objetivos .icono {
-    grid-row: 3; /* Fila 3 */
-    justify-self: center; /* Centrar horizontalmente */
-    align-self: center; /* Centrar verticalmente */
+/* Contenedor de Íconos */
+.objetivos-iconos {
+    display: flex;
+    justify-content: center; /* Centrar los íconos */
+    align-items: center; /* Alinear verticalmente */
+    gap: 20px; /* Espacio entre íconos */
+    margin-top: 15px; /* Separación del título */
+    margin-bottom: 20px; /* Espaciado inferior */
 }
 
-.grilla-objetivos .icono img {
+.objetivos-iconos img {
     width: 80px; /* Reducir tamaño del ícono */
     height: auto;
     object-fit: contain;
 }
 
-/* Títulos y Párrafos */
-.grilla-objetivos .contenido {
-    grid-row: 4; /* Fila 4 */
-    text-align: center; /* Centrado del texto */
+/* Contenedor de Títulos y Párrafos */
+.objetivos-contenido {
+    display: flex;
+    justify-content: center; /* Centrar el contenido */
+    gap: 20px; /* Espacio entre columnas */
+    text-align: center; /* Centrar texto */
     margin-top: -5px; /* Reducir espacio superior */
 }
 
-.grilla-objetivos .contenido h3 {
+.objetivos-contenido .columna {
+    max-width: 200px; /* Limitar ancho */
+}
+
+.objetivos-contenido h3 {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 1.2rem; /* Reducir tamaño de fuente */
     font-weight: 700;
     color: #342826; /* Color modificado */
 }
 
-.grilla-objetivos .contenido p {
+.objetivos-contenido p {
     font-family: "Solway", serif;
     font-size: 0.9rem; /* Reducir tamaño de fuente */
     line-height: 1.4; /* Reducir altura de línea */
     color: #342826; /* Color modificado */
     margin-top: 5px; /* Reducir espacio superior */
-    max-width: 200px; /* Párrafos más angostos */
-    margin-left: auto;
-    margin-right: auto; /* Centrar los párrafos */
 }
 
 
