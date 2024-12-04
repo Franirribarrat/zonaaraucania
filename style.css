@@ -402,8 +402,6 @@ p {
 
 /* Título Grande */ 
 .objetivos-titulo-grande h1 {
-    margin-top: 10px; /* Reducir espacio superior */
-    margin-bottom: 20px; /* Espaciado inferior */
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 4rem; /* Aumentar tamaño de fuente */
     font-weight: 700; /* Peso más grueso */
@@ -414,7 +412,7 @@ p {
 /* Contenedor de Íconos */
 .objetivos-iconos {
     display: flex;
-    justify-content: center; /* Centrar los íconos horizontalmente */
+    justify-content: space-evenly; /* Distribuir uniformemente a lo ancho */
     align-items: center; /* Centrar verticalmente */
     gap: 20px; /* Espacio entre íconos */
     margin-top: 15px; /* Separación del título */
@@ -456,11 +454,8 @@ p {
     line-height: 1.5; /* Ajustar altura de línea */
     color: #342826; /* Color modificado */
     margin: 0 auto; /* Centrar párrafo */
+
 }
-
-
-
-
 
 /* Sección Contacto */
 #contacto {
