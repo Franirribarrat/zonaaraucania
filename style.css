@@ -400,8 +400,10 @@ p {
     align-items: flex-start; /* Alinear los elementos al inicio */
 }
 
-/* Título Grande */ 
-.objetivos-titulo-grande h1 {
+/* Título Grande */
+.objetivos-titulo-grande {
+    margin-top: 10px; /* Reducir espacio superior */
+    margin-bottom: 20px; /* Espaciado inferior */
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 4rem; /* Aumentar tamaño de fuente */
     font-weight: 700; /* Peso más grueso */
@@ -409,38 +411,38 @@ p {
     text-align: left; /* Alineación a la izquierda */
 }
 
-/* Contenedor de Íconos */
-.objetivos-iconos {
+/* Contenedor de Objetivos */
+.objetivos-contenido {
     display: flex;
     justify-content: space-evenly; /* Distribuir uniformemente a lo ancho */
-    align-items: center; /* Centrar verticalmente */
-    gap: 20px; /* Espacio entre íconos */
-    margin-top: 15px; /* Separación del título */
-    margin-bottom: 20px; /* Espaciado inferior */
+    align-items: flex-start; /* Alinear al inicio verticalmente */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-top: 20px; /* Separación del título */
+    text-align: center; /* Centrar texto dentro de cada columna */
 }
 
-.objetivos-iconos img {
+/* Columna Individual */
+.objetivos-contenido .columna {
+    display: flex;
+    flex-direction: column; /* Alinear ícono, título y párrafo en columna */
+    align-items: center; /* Centrar ícono y título horizontalmente */
+    max-width: 300px; /* Ancho limitado */
+    flex: 1; /* Permitir flexibilidad en el tamaño */
+}
+
+/* Íconos */
+.objetivos-contenido .columna .icono {
+    margin-bottom: 10px; /* Espaciado debajo del ícono */
+}
+
+.objetivos-contenido .columna .icono img {
     width: 80px; /* Tamaño del ícono */
     height: auto;
     object-fit: contain;
 }
 
-/* Contenedor de Títulos y Párrafos */
-.objetivos-contenido {
-    display: flex;
-    justify-content: space-evenly; /* Distribuir uniformemente a lo ancho */
-    align-items: flex-start; /* Alineación vertical al inicio */
-    width: 100%; /* Ocupa todo el ancho disponible */
-    margin-top: 20px; /* Separación de los íconos */
-    text-align: center; /* Centrar texto dentro de cada columna */
-}
-
-.objetivos-contenido .columna {
-    max-width: 300px; /* Ancho limitado */
-    flex: 1; /* Permitir flexibilidad en el tamaño */
-}
-
-.objetivos-contenido h3 {
+/* Títulos */
+.objetivos-contenido .columna h3 {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 1.5rem; /* Ajustar tamaño de fuente */
     font-weight: 700;
@@ -448,14 +450,16 @@ p {
     margin-bottom: 10px; /* Espacio debajo del título */
 }
 
-.objetivos-contenido p {
+/* Párrafos */
+.objetivos-contenido .columna p {
     font-family: "Solway", serif;
     font-size: 1rem; /* Ajustar tamaño de fuente */
     line-height: 1.5; /* Ajustar altura de línea */
     color: #342826; /* Color modificado */
-    margin: 0 auto; /* Centrar párrafo */
-
+    margin: 0; /* Sin margen adicional */
+    text-align: left; /* Alinear párrafo a la izquierda */
 }
+
 
 /* Sección Contacto */
 #contacto {
