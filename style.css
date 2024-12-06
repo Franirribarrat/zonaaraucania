@@ -401,9 +401,7 @@ p {
 }
 
 /* Título Grande */
-.objetivos-titulo-grande {
-    margin-top: 10px; /* Reducir espacio superior */
-    margin-bottom: 20px; /* Espaciado inferior */
+.objetivos-titulo-grande h1 { 
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 4rem; /* Aumentar tamaño de fuente */
     font-weight: 700; /* Peso más grueso */
@@ -436,7 +434,7 @@ p {
 }
 
 .objetivos-contenido .columna .icono img {
-    width: 80px; /* Tamaño del ícono */
+    width: 120px; /* Tamaño del ícono */
     height: auto;
     object-fit: contain;
 }
