@@ -101,7 +101,7 @@ html {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 0.9rem; /* Botón más pequeño */
     padding: 8px 16px; /* Tamaño reducido del botón */
-    background-color: rgba(255, 79, 44, 0.5); /* Fondo con poca opacidad */
+    background-color: rgba(158, 219, 167, 0.5); /* Fondo con poca opacidad */
     color: #fff; /* Color del texto blanco */
     border: none;
     cursor: none;
@@ -134,16 +134,16 @@ section:not(:first-of-type) {
 }
 
 section#proyecto {
-    background-color: #FF4F2C;
+    background-color: #0D2119;
 }
 
 section#objetivos {
-    background-color: #EFB7FF;
+    background-color: #9EDBA7;
 }
 
 /* Contacto reducido */
 section#contacto {
-    background-color: #342826;
+    background-color: #0D2119;
     min-height: 50vh; /* Reducir altura de contacto */
 }
 
@@ -257,7 +257,7 @@ p {
     font-family: "Solway", serif;
     font-size: 1rem;
     font-weight: 400;
-    color: #ffffff;
+    color: #9EDBA7;
 
 
 }
@@ -273,7 +273,7 @@ p {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #9EDBA7;
 }
 
 /* Texto Central */
@@ -288,7 +288,7 @@ p {
     font-family: "Solway", serif;
     font-size: 1rem;
     line-height: 1.6;
-    color: #ffffff;
+    color: #9EDBA7;
 }
 
 /* Carrusel de Cards */
@@ -405,7 +405,7 @@ p {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 4rem; /* Aumentar tamaño de fuente */
     font-weight: 700; /* Peso más grueso */
-    color: #342826; /* Color modificado */
+    color: #0D2119; /* Color modificado */
     text-align: left; /* Alineación a la izquierda */
 }
 
