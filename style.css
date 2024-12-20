@@ -171,7 +171,7 @@ p {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(158, 219, 167, 0.5); /* Color de fondo con 50% de opacidad */
+    background-color: rgba(13, 33, 25, 0.5); /* Color de fondo con 50% de opacidad */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Bordes redondeados */
     padding: 2px 15px; /* Altura menor y ancho reducido */
@@ -212,8 +212,8 @@ p {
 
 /* Efecto hover */
 .menu-fijo ul li a:hover {
-    background-color: #FF4F2C; /* Fondo al pasar el cursor */
-    color: #342826; /* Color del texto al pasar el cursor */
+    background-color: #9EDBA7; /* Fondo al pasar el cursor */
+    color: #0D2119; /* Color del texto al pasar el cursor */
 }
 
 
@@ -444,7 +444,7 @@ p {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 1.5rem; /* Ajustar tamaño de fuente */
     font-weight: 700;
-    color: #342826; /* Color modificado */
+    color: #0D2119; /* Color modificado */
     margin-bottom: 10px; /* Espacio debajo del título */
 }
 
@@ -453,7 +453,7 @@ p {
     font-family: "Solway", serif;
     font-size: 1rem; /* Ajustar tamaño de fuente */
     line-height: 1.5; /* Ajustar altura de línea */
-    color: #342826; /* Color modificado */
+    color: #0D2119; /* Color modificado */
     margin: 0; /* Sin margen adicional */
     text-align: left; /* Alinear párrafo a la izquierda */
 }
@@ -461,7 +461,7 @@ p {
 
 /* Sección Contacto */
 #contacto {
-    background-color: #342826; /* Color de fondo */
+    background-color: #0D2119; /* Color de fondo */
     padding: 40px 20px; /* Espaciado interno */
     display: flex;
     justify-content: center;
